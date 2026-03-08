@@ -12,12 +12,16 @@ function App() {
         position:"fixed",
         top:"0",
         left:"0",
+        zIndex:"1",
+        backgroundImage:"url(background-m.png)",
+        backgroundSize:"cover",
+        backgroundPosition:"center",
       }}>
       <Dog/>
       </Canvas>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section id='section-1'></section>
+      <section id='section-2'></section>
+      <section id='section-3'></section>
     </main>
     
     </>
